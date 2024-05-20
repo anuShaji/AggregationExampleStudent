@@ -1,7 +1,7 @@
 package checkAdditionResult;
 
 public class Class1Addition {
-static int a,b;
+ int a,b;
 
 	public int add(int a,int b) {
 		this.a=a;

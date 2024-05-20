@@ -1,9 +1,5 @@
 package customerDiscount;
-
 import java.util.Scanner;
-
-
-
 public class OnSeason extends OffSeason {
     public double discount() {
         double onDisc = 0.40;
@@ -21,7 +17,6 @@ public class OnSeason extends OffSeason {
              System.out.println("season should be either in  OFFSEASON or ONSEASON");
              return; // Exit the program if the season is invalid
          }
-         
          System.out.println("Enter the price of package");
          double pack = sc.nextDouble();
          
@@ -38,6 +33,5 @@ public class OnSeason extends OffSeason {
         
         OnSeason onSeason = new OnSeason();
         onSeason.calculateTotalPacakage();
-       
 }}
 
